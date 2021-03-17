@@ -1,0 +1,5 @@
+	public static String getCurrentDate() {
+		DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+		// TODO Auto-generated method stub
+		return dateFormat.format(new Date());
+	}
